@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.addTask{
+    /* background: #e3e3e3; */
+    border-radius: 3px;
+    border: none;
+    padding: 2px 3px;
+    cursor: pointer;
+}
+
+#taskInput{
+    outline: none;
+}
+
+.but_inp{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
